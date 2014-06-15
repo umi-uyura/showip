@@ -1,0 +1,18 @@
+{
+  "name": "showip",
+  "version": "0.0.1",
+  "description": "Show local IP address on Mac OS X.",
+  "main": "lib/showip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Umi Uyura",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "showip": "bin/showip"
+  },
+  "dependencies": {
+    "address": "0.0.3"
+  }
+}
